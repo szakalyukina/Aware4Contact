@@ -1,0 +1,6 @@
+framework module Pods_Aware4Contact_Aware4ContactUITests {
+  umbrella header "Pods-Aware4Contact-Aware4ContactUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

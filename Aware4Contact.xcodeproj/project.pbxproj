@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FB31E1FFF584CC9C3ACBA26 /* Pods_Aware4ContactTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E9B7C8C938D0D8C6FF17FC /* Pods_Aware4ContactTests.framework */; };
+		B794FF03313F5F3E0C1AFE21 /* Pods_Aware4Contact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1D575C76C2B2CC12EC07D2 /* Pods_Aware4Contact.framework */; };
+		CEAC06D49A0FE9817FA88D3C /* Pods_Aware4Contact_Aware4ContactUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FDC1B66721B1B7E16EB2B0 /* Pods_Aware4Contact_Aware4ContactUITests.framework */; };
+		DA452AC2243E1F55004CF4D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA452AC1243E1F55004CF4D5 /* AppDelegate.swift */; };
+		DA452AC4243E1F55004CF4D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA452AC3243E1F55004CF4D5 /* SceneDelegate.swift */; };
+		DA452AC7243E1F55004CF4D5 /* Aware4Contact.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA452AC5243E1F55004CF4D5 /* Aware4Contact.xcdatamodeld */; };
+		DA452AC9243E1F55004CF4D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA452AC8243E1F55004CF4D5 /* ContentView.swift */; };
+		DA452ACB243E1F57004CF4D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA452ACA243E1F57004CF4D5 /* Assets.xcassets */; };
+		DA452ACE243E1F57004CF4D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA452ACD243E1F57004CF4D5 /* Preview Assets.xcassets */; };
+		DA452AD1243E1F57004CF4D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA452ACF243E1F57004CF4D5 /* LaunchScreen.storyboard */; };
+		DA452ADC243E1F57004CF4D5 /* Aware4ContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA452ADB243E1F57004CF4D5 /* Aware4ContactTests.swift */; };
+		DA452AE7243E1F57004CF4D5 /* Aware4ContactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA452AE6243E1F57004CF4D5 /* Aware4ContactUITests.swift */; };
+		DA452AF5243E2266004CF4D5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DA452AF4243E2266004CF4D5 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA452AD8243E1F57004CF4D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA452AB6243E1F55004CF4D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA452ABD243E1F55004CF4D5;
+			remoteInfo = Aware4Contact;
+		};
+		DA452AE3243E1F57004CF4D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA452AB6243E1F55004CF4D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA452ABD243E1F55004CF4D5;
+			remoteInfo = Aware4Contact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ECF045B49AF800412984224 /* Pods-Aware4Contact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aware4Contact.debug.xcconfig"; path = "Target Support Files/Pods-Aware4Contact/Pods-Aware4Contact.debug.xcconfig"; sourceTree = "<group>"; };
+		363B87263A672A35B782E08D /* Pods-Aware4ContactTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aware4ContactTests.release.xcconfig"; path = "Target Support Files/Pods-Aware4ContactTests/Pods-Aware4ContactTests.release.xcconfig"; sourceTree = "<group>"; };
+		46B7C7B740AF243AF400D404 /* Pods-Aware4Contact-Aware4ContactUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aware4Contact-Aware4ContactUITests.release.xcconfig"; path = "Target Support Files/Pods-Aware4Contact-Aware4ContactUITests/Pods-Aware4Contact-Aware4ContactUITests.release.xcconfig"; sourceTree = "<group>"; };
+		53E9B7C8C938D0D8C6FF17FC /* Pods_Aware4ContactTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aware4ContactTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0E57668DF74DA94537E394 /* Pods-Aware4Contact-Aware4ContactUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aware4Contact-Aware4ContactUITests.debug.xcconfig"; path = "Target Support Files/Pods-Aware4Contact-Aware4ContactUITests/Pods-Aware4Contact-Aware4ContactUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C83EC7B6A4FDA0ED871290C0 /* Pods-Aware4ContactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aware4ContactTests.debug.xcconfig"; path = "Target Support Files/Pods-Aware4ContactTests/Pods-Aware4ContactTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3FDC1B66721B1B7E16EB2B0 /* Pods_Aware4Contact_Aware4ContactUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aware4Contact_Aware4ContactUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA452ABE243E1F55004CF4D5 /* Aware4Contact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aware4Contact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA452AC1243E1F55004CF4D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA452AC3243E1F55004CF4D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA452AC6243E1F55004CF4D5 /* Aware4Contact.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aware4Contact.xcdatamodel; sourceTree = "<group>"; };
+		DA452AC8243E1F55004CF4D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA452ACA243E1F57004CF4D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA452ACD243E1F57004CF4D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA452AD0243E1F57004CF4D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA452AD2243E1F57004CF4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA452AD7243E1F57004CF4D5 /* Aware4ContactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aware4ContactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA452ADB243E1F57004CF4D5 /* Aware4ContactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aware4ContactTests.swift; sourceTree = "<group>"; };
+		DA452ADD243E1F57004CF4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA452AE2243E1F57004CF4D5 /* Aware4ContactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aware4ContactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA452AE6243E1F57004CF4D5 /* Aware4ContactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aware4ContactUITests.swift; sourceTree = "<group>"; };
+		DA452AE8243E1F57004CF4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA452AF4243E2266004CF4D5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		EF1D575C76C2B2CC12EC07D2 /* Pods_Aware4Contact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aware4Contact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB76EC6EF7C182C85F6A2B8D /* Pods-Aware4Contact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aware4Contact.release.xcconfig"; path = "Target Support Files/Pods-Aware4Contact/Pods-Aware4Contact.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA452ABB243E1F55004CF4D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B794FF03313F5F3E0C1AFE21 /* Pods_Aware4Contact.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA452AD4243E1F57004CF4D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB31E1FFF584CC9C3ACBA26 /* Pods_Aware4ContactTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA452ADF243E1F57004CF4D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAC06D49A0FE9817FA88D3C /* Pods_Aware4Contact_Aware4ContactUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0279D9F7BE288A2F90CFE880 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1ECF045B49AF800412984224 /* Pods-Aware4Contact.debug.xcconfig */,
+				FB76EC6EF7C182C85F6A2B8D /* Pods-Aware4Contact.release.xcconfig */,
+				9B0E57668DF74DA94537E394 /* Pods-Aware4Contact-Aware4ContactUITests.debug.xcconfig */,
+				46B7C7B740AF243AF400D404 /* Pods-Aware4Contact-Aware4ContactUITests.release.xcconfig */,
+				C83EC7B6A4FDA0ED871290C0 /* Pods-Aware4ContactTests.debug.xcconfig */,
+				363B87263A672A35B782E08D /* Pods-Aware4ContactTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1CD003490020D98E1781083A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1D575C76C2B2CC12EC07D2 /* Pods_Aware4Contact.framework */,
+				D3FDC1B66721B1B7E16EB2B0 /* Pods_Aware4Contact_Aware4ContactUITests.framework */,
+				53E9B7C8C938D0D8C6FF17FC /* Pods_Aware4ContactTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA452AB5243E1F55004CF4D5 = {
+			isa = PBXGroup;
+			children = (
+				DA452AF4243E2266004CF4D5 /* Podfile */,
+				DA452AC0243E1F55004CF4D5 /* Aware4Contact */,
+				DA452ADA243E1F57004CF4D5 /* Aware4ContactTests */,
+				DA452AE5243E1F57004CF4D5 /* Aware4ContactUITests */,
+				DA452ABF243E1F55004CF4D5 /* Products */,
+				0279D9F7BE288A2F90CFE880 /* Pods */,
+				1CD003490020D98E1781083A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA452ABF243E1F55004CF4D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA452ABE243E1F55004CF4D5 /* Aware4Contact.app */,
+				DA452AD7243E1F57004CF4D5 /* Aware4ContactTests.xctest */,
+				DA452AE2243E1F57004CF4D5 /* Aware4ContactUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA452AC0243E1F55004CF4D5 /* Aware4Contact */ = {
+			isa = PBXGroup;
+			children = (
+				DA452AC1243E1F55004CF4D5 /* AppDelegate.swift */,
+				DA452AC3243E1F55004CF4D5 /* SceneDelegate.swift */,
+				DA452AC8243E1F55004CF4D5 /* ContentView.swift */,
+				DA452ACA243E1F57004CF4D5 /* Assets.xcassets */,
+				DA452ACF243E1F57004CF4D5 /* LaunchScreen.storyboard */,
+				DA452AD2243E1F57004CF4D5 /* Info.plist */,
+				DA452AC5243E1F55004CF4D5 /* Aware4Contact.xcdatamodeld */,
+				DA452ACC243E1F57004CF4D5 /* Preview Content */,
+			);
+			path = Aware4Contact;
+			sourceTree = "<group>";
+		};
+		DA452ACC243E1F57004CF4D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA452ACD243E1F57004CF4D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA452ADA243E1F57004CF4D5 /* Aware4ContactTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA452ADB243E1F57004CF4D5 /* Aware4ContactTests.swift */,
+				DA452ADD243E1F57004CF4D5 /* Info.plist */,
+			);
+			path = Aware4ContactTests;
+			sourceTree = "<group>";
+		};
+		DA452AE5243E1F57004CF4D5 /* Aware4ContactUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA452AE6243E1F57004CF4D5 /* Aware4ContactUITests.swift */,
+				DA452AE8243E1F57004CF4D5 /* Info.plist */,
+			);
+			path = Aware4ContactUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA452ABD243E1F55004CF4D5 /* Aware4Contact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA452AEB243E1F57004CF4D5 /* Build configuration list for PBXNativeTarget "Aware4Contact" */;
+			buildPhases = (
+				B95072B1AE4ACBABFCBFCA61 /* [CP] Check Pods Manifest.lock */,
+				DA452ABA243E1F55004CF4D5 /* Sources */,
+				DA452ABB243E1F55004CF4D5 /* Frameworks */,
+				DA452ABC243E1F55004CF4D5 /* Resources */,
+				3E54DC50F96791E4BFFE5692 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aware4Contact;
+			productName = Aware4Contact;
+			productReference = DA452ABE243E1F55004CF4D5 /* Aware4Contact.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA452AD6243E1F57004CF4D5 /* Aware4ContactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA452AEE243E1F57004CF4D5 /* Build configuration list for PBXNativeTarget "Aware4ContactTests" */;
+			buildPhases = (
+				1AFFA7D5AB72DBF8BA3CD247 /* [CP] Check Pods Manifest.lock */,
+				DA452AD3243E1F57004CF4D5 /* Sources */,
+				DA452AD4243E1F57004CF4D5 /* Frameworks */,
+				DA452AD5243E1F57004CF4D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA452AD9243E1F57004CF4D5 /* PBXTargetDependency */,
+			);
+			name = Aware4ContactTests;
+			productName = Aware4ContactTests;
+			productReference = DA452AD7243E1F57004CF4D5 /* Aware4ContactTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA452AE1243E1F57004CF4D5 /* Aware4ContactUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA452AF1243E1F57004CF4D5 /* Build configuration list for PBXNativeTarget "Aware4ContactUITests" */;
+			buildPhases = (
+				4683801678B68181C0B36E35 /* [CP] Check Pods Manifest.lock */,
+				DA452ADE243E1F57004CF4D5 /* Sources */,
+				DA452ADF243E1F57004CF4D5 /* Frameworks */,
+				DA452AE0243E1F57004CF4D5 /* Resources */,
+				D4FDF08916111C181311DB98 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA452AE4243E1F57004CF4D5 /* PBXTargetDependency */,
+			);
+			name = Aware4ContactUITests;
+			productName = Aware4ContactUITests;
+			productReference = DA452AE2243E1F57004CF4D5 /* Aware4ContactUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA452AB6243E1F55004CF4D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Aware360;
+				TargetAttributes = {
+					DA452ABD243E1F55004CF4D5 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					DA452AD6243E1F57004CF4D5 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = DA452ABD243E1F55004CF4D5;
+					};
+					DA452AE1243E1F57004CF4D5 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = DA452ABD243E1F55004CF4D5;
+					};
+				};
+			};
+			buildConfigurationList = DA452AB9243E1F55004CF4D5 /* Build configuration list for PBXProject "Aware4Contact" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA452AB5243E1F55004CF4D5;
+			productRefGroup = DA452ABF243E1F55004CF4D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA452ABD243E1F55004CF4D5 /* Aware4Contact */,
+				DA452AD6243E1F57004CF4D5 /* Aware4ContactTests */,
+				DA452AE1243E1F57004CF4D5 /* Aware4ContactUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA452ABC243E1F55004CF4D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA452AD1243E1F57004CF4D5 /* LaunchScreen.storyboard in Resources */,
+				DA452ACE243E1F57004CF4D5 /* Preview Assets.xcassets in Resources */,
+				DA452AF5243E2266004CF4D5 /* Podfile in Resources */,
+				DA452ACB243E1F57004CF4D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA452AD5243E1F57004CF4D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA452AE0243E1F57004CF4D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AFFA7D5AB72DBF8BA3CD247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aware4ContactTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E54DC50F96791E4BFFE5692 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aware4Contact/Pods-Aware4Contact-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aware4Contact/Pods-Aware4Contact-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aware4Contact/Pods-Aware4Contact-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4683801678B68181C0B36E35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aware4Contact-Aware4ContactUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B95072B1AE4ACBABFCBFCA61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aware4Contact-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4FDF08916111C181311DB98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aware4Contact-Aware4ContactUITests/Pods-Aware4Contact-Aware4ContactUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aware4Contact-Aware4ContactUITests/Pods-Aware4Contact-Aware4ContactUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aware4Contact-Aware4ContactUITests/Pods-Aware4Contact-Aware4ContactUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA452ABA243E1F55004CF4D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA452AC2243E1F55004CF4D5 /* AppDelegate.swift in Sources */,
+				DA452AC7243E1F55004CF4D5 /* Aware4Contact.xcdatamodeld in Sources */,
+				DA452AC9243E1F55004CF4D5 /* ContentView.swift in Sources */,
+				DA452AC4243E1F55004CF4D5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA452AD3243E1F57004CF4D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA452ADC243E1F57004CF4D5 /* Aware4ContactTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA452ADE243E1F57004CF4D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA452AE7243E1F57004CF4D5 /* Aware4ContactUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA452AD9243E1F57004CF4D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA452ABD243E1F55004CF4D5 /* Aware4Contact */;
+			targetProxy = DA452AD8243E1F57004CF4D5 /* PBXContainerItemProxy */;
+		};
+		DA452AE4243E1F57004CF4D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA452ABD243E1F55004CF4D5 /* Aware4Contact */;
+			targetProxy = DA452AE3243E1F57004CF4D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA452ACF243E1F57004CF4D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA452AD0243E1F57004CF4D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA452AE9243E1F57004CF4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA452AEA243E1F57004CF4D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA452AEC243E1F57004CF4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECF045B49AF800412984224 /* Pods-Aware4Contact.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Aware4Contact/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GQX355JRN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Aware4Contact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aware360Ltd.Aware4Contact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA452AED243E1F57004CF4D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB76EC6EF7C182C85F6A2B8D /* Pods-Aware4Contact.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Aware4Contact/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GQX355JRN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Aware4Contact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aware360Ltd.Aware4Contact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA452AEF243E1F57004CF4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83EC7B6A4FDA0ED871290C0 /* Pods-Aware4ContactTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GQX355JRN;
+				INFOPLIST_FILE = Aware4ContactTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aware360Ltd.Aware4ContactTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aware4Contact.app/Aware4Contact";
+			};
+			name = Debug;
+		};
+		DA452AF0243E1F57004CF4D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 363B87263A672A35B782E08D /* Pods-Aware4ContactTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GQX355JRN;
+				INFOPLIST_FILE = Aware4ContactTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aware360Ltd.Aware4ContactTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aware4Contact.app/Aware4Contact";
+			};
+			name = Release;
+		};
+		DA452AF2243E1F57004CF4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0E57668DF74DA94537E394 /* Pods-Aware4Contact-Aware4ContactUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GQX355JRN;
+				INFOPLIST_FILE = Aware4ContactUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aware360Ltd.Aware4ContactUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aware4Contact;
+			};
+			name = Debug;
+		};
+		DA452AF3243E1F57004CF4D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B7C7B740AF243AF400D404 /* Pods-Aware4Contact-Aware4ContactUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GQX355JRN;
+				INFOPLIST_FILE = Aware4ContactUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aware360Ltd.Aware4ContactUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aware4Contact;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA452AB9243E1F55004CF4D5 /* Build configuration list for PBXProject "Aware4Contact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA452AE9243E1F57004CF4D5 /* Debug */,
+				DA452AEA243E1F57004CF4D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA452AEB243E1F57004CF4D5 /* Build configuration list for PBXNativeTarget "Aware4Contact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA452AEC243E1F57004CF4D5 /* Debug */,
+				DA452AED243E1F57004CF4D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA452AEE243E1F57004CF4D5 /* Build configuration list for PBXNativeTarget "Aware4ContactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA452AEF243E1F57004CF4D5 /* Debug */,
+				DA452AF0243E1F57004CF4D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA452AF1243E1F57004CF4D5 /* Build configuration list for PBXNativeTarget "Aware4ContactUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA452AF2243E1F57004CF4D5 /* Debug */,
+				DA452AF3243E1F57004CF4D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA452AC5243E1F55004CF4D5 /* Aware4Contact.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA452AC6243E1F55004CF4D5 /* Aware4Contact.xcdatamodel */,
+			);
+			currentVersion = DA452AC6243E1F55004CF4D5 /* Aware4Contact.xcdatamodel */;
+			path = Aware4Contact.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA452AB6243E1F55004CF4D5 /* Project object */;
+}

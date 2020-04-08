@@ -1,0 +1,6 @@
+framework module Pods_Aware4Contact {
+  umbrella header "Pods-Aware4Contact-umbrella.h"
+
+  export *
+  module * { export * }
+}
